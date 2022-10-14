@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;600;0,900;1,300;1,900&display=swap');
+
+@font-face {
+    font-family: "CircularStd";
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'), url('../fonts/CircularStd-Book.woff'), format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url('../fonts/CircularStd-BlackItalic.woff2') format('woff2'), url('../fonts/CircularStd-BlackItalic.woff'), format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+/*========================================================================*/
+@font-face {
+    font-family: "Gantari";
+    src: url('../fonts/Gantari-Regular.woff2') format('woff2'), url('../fonts/Gantari-Regular.woff'), format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gantari";
+    src: url('../fonts/Gantari-Regular.woff2') format('woff2'), url('../fonts/Gantari-Regular.woff'), format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+/*========================================================================*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway.woff2') format("woff2"), url('../fonts/Raleway.woff'), format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/RalewayBold.woff2') format('woff2'), 
+        url('../fonts/RalewayBold.woff'), format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/RalewayBold-Italic.woff2') format("woff2"), 
+        url('../fonts/RalewayBold-Italic.woff'), format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Black.woff2') format('woff2'),
+        url('Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*========================================================================*/
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../fonts/CooperHewitt-Book.woff2') format("woff2"), 
+        url('../fonts/CooperHewitt-Book.woff'), format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*буду благодарна если объясните почему шрифты подключенные с помощю @font-face не отображаються и на кирилице и на латиннице*/
+
+
+body{
+    font-family: 'Raleway', 'Arial', sans-serif;
+    line-height: 1.4;
+}
+header{
+    padding: 20px;
+}
+
+h2, h3{
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+header > a{
+    color: grey;
+    font-size: 18px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.introduction, .dictionary, .serif-fonts{
+    margin:0 20px 20px;
+}
+.img-example{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.img-example > img{
+    margin-bottom: 10px;
+}
+
+.caption{
+    font-style: italic;
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    text-shadow: 10px 3px 1px rgb(228, 135, 135);
+    word-spacing: 20px;
+}
+.advertising{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+li > .text{
+    text-align: justify;
+}
+.text{
+    margin-bottom: 15px;
+    text-indent: 15px;
+}
+
+.text > span{
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+.source{
+    padding: 20px;
+    color: rgb(62, 11, 92);
+}
+.source > a{
+    text-shadow: 5px 1px 5px rgb(231, 70, 91), -5px -1px 5px rgb(73, 155, 203);
+}
+
